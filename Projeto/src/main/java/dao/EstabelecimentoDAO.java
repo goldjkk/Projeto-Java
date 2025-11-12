@@ -1,0 +1,1 @@
+package dao; import model.Estabelecimento; import java.util.*; public interface EstabelecimentoDAO { void salvar(Estabelecimento e); void atualizar(Estabelecimento e); List<Estabelecimento> listarAtivos(); Optional<Estabelecimento> buscarPorId(int id); }
