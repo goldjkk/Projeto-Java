@@ -30,11 +30,11 @@ Aplicativo desktop estilo **“cardápio + pedido”** feito em **Java Swing**, 
 - `avaliacao(pedido_id, estrelas, comentario, criado_em)` **1 por pedido (upsert)**
 
 ## 🧭 Organização do projeto
--config/ -> ConnectionFactory (JDBC)
--controller/ -> Auth, Estatísticas
--dao/ + dao.impl/ -> Interfaces + SQL (JDBC “puro”)
--model/ -> Usuario, Alimento, Pedido, etc.
--view/ -> LoginFrame, MainFrame, Panel* (Swing)
+- `config/ -> ConnectionFactory (JDBC)`
+-`controller/ -> Auth, Estatísticas`
+-`dao/ + dao.impl/ -> Interfaces + SQL (JDBC “puro”)`
+-`model/ -> Usuario, Alimento, Pedido, etc.`
+-`view/ -> LoginFrame, MainFrame, Panel* (Swing)`
 
 
 ## 🧪 Roteiro de teste rápido
