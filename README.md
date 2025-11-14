@@ -59,5 +59,5 @@ Aplicativo desktop estilo **“cardápio + pedido”** feito em **Java Swing**, 
 - **Erro de conexão**: valide URL/usuário/senha no `ConnectionFactory`.
 
 ## 📄 Autor
-Matheus Concon de Oliveira 22.124.089-8
+- Matheus Concon de Oliveira 22.124.089-8
 
