@@ -1,1 +1,12 @@
-package dao; import model.Alimento; import java.util.*; public interface AlimentoDAO { void salvar(Alimento a); void atualizar(Alimento a); Optional<Alimento> buscarPorId(int id); List<Alimento> buscarPorNome(String termo,int limit,int offset); }
+package dao;
+
+import model.Alimento;
+import java.util.List;
+import java.util.Optional;
+
+public interface AlimentoDAO {
+    void salvar(Alimento a);
+    void atualizar(Alimento a);
+    Optional<Alimento> buscarPorId(int id);
+    List<Alimento> buscarPorNome(String termo, int limit, int offset);
+}
