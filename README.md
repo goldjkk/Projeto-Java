@@ -62,9 +62,3 @@ No NetBeans: **Run → Generate Javadoc**. A pasta `dist/javadoc/` será criada.
 ## 📦 JAR
 NetBeans: **Build → Clean and Build** → `dist/FEIFood.jar`.
 
-## 🎥 Vídeo (3–5 min)
-Demonstre: registro, login, busca, novo pedido, salvar itens, avaliar, estatísticas,
-e mostre as tabelas no **pgAdmin** atualizando ao vivo.
-
-## 📄 Licença
-Uso acadêmico.
